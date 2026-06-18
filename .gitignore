@@ -1,0 +1,30 @@
+# Spring Boot
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Frontend build output in resources
+src/main/resources/static/
+
+# Node
+node_modules/
+frontend/dealer/node_modules/
+.gradle/nodejs/
+
+# OS
+.DS_Store
